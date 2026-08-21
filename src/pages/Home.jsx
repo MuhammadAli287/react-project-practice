@@ -28,7 +28,7 @@ let btn=[
 
     return(
         <>
-        <h1 className="text-3xl text-center font-bold">Home Page</h1>
+        <h1 className="text-3xl text-center font-bold">Welcome To Home </h1>
 
     <div className="grid grid-cols-1 lg:grid-cols-3 p-6 gap-4">
         
