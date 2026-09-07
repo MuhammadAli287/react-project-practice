@@ -28,9 +28,9 @@ let btn=[
 
     return(
         <>
-        <h1 className="text-3xl text-center font-bold">Welcome To Home </h1>
+        <h1 className="text-4xl text-center font-bold animate-pulse">Welcome To Home  </h1>
 
-    <div className="grid grid-cols-1 lg:grid-cols-3 p-6 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-6 gap-4">
         
          <Card head='BS CYber S' p='Cyber Security' btn='Cyber-Doc' bgcolor='bg-blue-700 p-6 rounded-lg  ' btncolor='px-4 py-1 bg-blue-400 mt-4 rounded-lg' />
         <Card head='BSCS' p='Computer Science' btn='CS-Doc' bgcolor='bg-gray-500 p-6 rounded-lg  ' btncolor='px-4 py-1 bg-slate-500 mt-4 rounded-lg  ' />
