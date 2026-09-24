@@ -1,14 +1,18 @@
 
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar(){
+
+ const [about,setabout]=useState(false)
+
     return(
         <div className="flex justify-between p-6 items-center">
             <div className="text-2xl font-bold">M4k Holdings</div>
             <nav className="flex gap-10">
                 
-                <Link to='/'>Home</Link>
-                 <Link to='about'>About</Link>
+                <Link  to='/'>Home</Link>
+                 <Link onClick={()=> setabout(!about)} className={about ? 'text-blue-700 border-b-2': 'text-black'} to='about'>About</Link>
                   <Link to='/products'>Product</Link>
                    <Link to='/store'>Store</Link>
             </nav>

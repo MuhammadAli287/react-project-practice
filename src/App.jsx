@@ -34,7 +34,7 @@ function App(){
   
   return(
 
-    <div className={dark ?'bg-black text-white' : 'bg-white text-black'}>
+    <div className={dark ?'bg-gray-950 text-white' : 'bg-white text-black'}>
 
     <BrowserRouter>
     <Navbar />
@@ -50,7 +50,7 @@ function App(){
     </BrowserRouter>
    
    
-   <h1 className="text-center font-bold text-2xl">Hook Use-state Use Here </h1>
+   <h1 className="text-center font-bold text-2xl">Hook Use-state Use </h1>
 
 
     <h1>{text}</h1>
@@ -83,7 +83,7 @@ function App(){
      onClick={()=> deccount(vals-1)}>Click For dec{vals}</button>
 <br />
     {/* hide/show password  */}
-     <input className="border-2 border-gray-400" type={showpass ? 'text' :'password'} placeholder="Username " />
+     <input className="border-2 border-gray-400" type={showpass ? 'text' :'password'} placeholder="password " />
      <button className="bg-blue-200 p-2 ml-4 "
       onClick={()=> setshowpass(!showpass)}>Hide/Show</button>
 
